@@ -14,6 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
+@RequestMapping("/blog")
 public class BlogController {
     @RequestMapping(value="/sayHello", method = RequestMethod.GET)
     public String sayHello() {
